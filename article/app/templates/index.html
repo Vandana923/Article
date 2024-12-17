@@ -1,0 +1,16 @@
+{% extends 'tempfiles/base.html' %}
+
+{% block content %}
+   
+
+    <section>
+        {% for i in res %}
+        <article>
+            <h1><a href="{% url 'details' i.id %}" >{{i.title}}</a></h1>
+            <p>{{i.desc|truncatewords:10}}</p>
+        </article>
+        {% endfor %}
+    </section>
+    
+{% endblock content %}
+   

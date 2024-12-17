@@ -1,0 +1,46 @@
+
+body{
+    background-color: skyblue;
+    box-sizing: border-box;
+    
+}
+section{
+    /* border: 2px solid; */
+    width: 70%;
+    height: 150vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: skyblue;
+    justify-content: space-around;
+
+}
+article{
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border-radius: 15px;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+     background-color: beige;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+   
+}
+article:hover{
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px red;
+    
+}
+
+h1 a {
+   color: red;
+   font-size: large;
+    text-decoration: none;
+}
+

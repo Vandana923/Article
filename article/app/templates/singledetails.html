@@ -1,0 +1,13 @@
+{% extends 'tempfiles/base.html' %}
+
+{% block content %}
+<header><a href="{% url 'home' %}"><button>BACK</button></a></header>
+<div id="single">
+    <br>
+    <aside>{{data1.title}}</aside>
+    <br>
+    <p id="para">{{data1.desc}}</p>
+</div>
+
+
+{% endblock content %}
