@@ -17,6 +17,7 @@ Backend: Django Framework (Python)
 Frontend: HTML, CSS, Bootstrap, JavaScript
 Database: SQLite 
 # UI VIEW
+
 # home page
 ![article home](https://github.com/user-attachments/assets/d6be80d3-410e-4665-87b4-f66369c3a76f)
 # search results 
